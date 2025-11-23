@@ -9,6 +9,8 @@ console.log(count);
 // Console.log the value after each step
 
 let bonusPoints = 50;
+console.log(bonusPoints)
+
 bonusPoints = bonusPoints + 50;
 console.log(bonusPoints)
 
