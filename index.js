@@ -1,17 +1,20 @@
-// document.getElementById("count-el").innerText = 7;
+// document.getElementById("count").innerText = 5
 
-// let firstBatch = 5
-// let secondBatch = 7
-// let count = firstBatch + secondBatch
-// console.log(count)
+let count = 5;
+count = count + 1;
+console.log(count);
 
+// Create a variable, bonusPoints. Initialize it as 50. Increase it to 100.
+// Decrease it down to 25, and then finally increase it to 70
+// Console.log the value after each step
 
-// 1. Create two variables, myAge and humanDogRatio
-// 2. Multiply the two together and store the result in myDogAge 
-// 3. Log myDogAge to the console
+let bonusPoints = 50;
+bonusPoints = bonusPoints + 100;
+console.log(bonusPoints)
 
-const myAge = 23;
-const humanDogRatio = 7;
-const myDogAge = myAge * humanDogRatio;
+bonusPoints = bonusPoints - 25;
+console.log(bonusPoints)
 
-console.log(myDogAge);
+bonusPoints = bonusPoints + 70;
+console.log(bonusPoints)
+
