@@ -7,6 +7,10 @@ function increment() {
   return console.log(count);
 }
 
+function save(){
+    console.log(count)
+}
+
 // function decrement() {
 //     count = count - 1;
 //     document.getElementById("count-el").innerText = count;
