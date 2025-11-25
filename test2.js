@@ -5,7 +5,7 @@
 
 // Render the welcome message using welcomeEl.innerText
 
-const welcomeEl = document.getElementById("count-el");
+const welcomeEl = document.getElementById("welcome-el");
 
 let name = "God'swill Sekav Apya";
 let greeting = "Hi friends, I am ";
