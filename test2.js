@@ -13,5 +13,5 @@ let emoji = "👋";
 
 welcomeEl.innerText = greeting + name;
 
-welcomeEl.innerHTML = welcomeEl.innerText + emoji;
+welcomeEl.innerHTML += emoji;
 console.log(welcomeEl);
