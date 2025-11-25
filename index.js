@@ -1,5 +1,6 @@
 let count = 0;
-let countEl = document.getElementById("count-el")
+let countEl = document.getElementById("count-el");
+let saveEl = document.getElementById("save-el");
 
 function increment() {
   count += 1;
@@ -7,8 +8,10 @@ function increment() {
   console.log(count);
 }
 
-function save(){
-    console.log(count)
+function save() {
+  saveVariable = count + "-"
+  saveEl.innerText += saveVariable;
+  console.log(count);
 }
 
 // function decrement() {
